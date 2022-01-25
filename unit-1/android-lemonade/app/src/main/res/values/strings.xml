@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lemonade</string>
+    <string name="lemonade_state_pick">Click to pick a lemon</string>
+    <string name="lemonade_state_squeeze">Click to squeeze your lemon</string>
+    <string name="lemonade_state_drink">Click to drink your lemonade</string>
+    <string name="lemonade_state_restart">That was good! Click to make a new glass of lemonade</string>
+    <string name="squeeze_count">Squeeze count: %1$d, keep squeezing!</string>
+    <string name="image_lemon_content_description">Image depicting the current state of making lemonade</string>
+</resources>

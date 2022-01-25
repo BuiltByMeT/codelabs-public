@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/roll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diceOneLabel" />
+
+    <TextView
+        android:id="@+id/diceOneLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/dice_one"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/rollResult1"
+        app:layout_constraintStart_toStartOf="@+id/rollResult1"
+        app:layout_constraintTop_toBottomOf="@+id/rollResult1" />
+
+    <TextView
+        android:id="@+id/rollResult2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="64dp"
+        android:text="@string/roll_result"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rollResult1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.502"
+        tools:text="1" />
+
+    <TextView
+        android:id="@+id/diceTwoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/dice_two"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/rollResult2"
+        app:layout_constraintStart_toStartOf="@+id/rollResult2"
+        app:layout_constraintTop_toBottomOf="@+id/rollResult2" />
+
+    <TextView
+        android:id="@+id/rollResult1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="64dp"
+        android:text="@string/roll_result"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/rollResult2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

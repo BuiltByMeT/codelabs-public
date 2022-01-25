@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lucky Dice Roller</string>
+    <string name="roll_result"></string>
+    <string name="roll_button1">Roll Dice 1</string>
+    <string name="roll_button2">Roll Dice 2</string>
+    <string name="dice">Image of a die showing the rolled number</string>
+    <string name="lucky_number_input">Lucky Number</string>
+    <string name="you_win_text"></string>
+    <string name="you_win_content_description">text stating your lucky number won</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Dwellings</string>
+    <string name="has_room_text"></string>
+    <string name="label_dwelling"></string>
+    <string name="label_num_guests_booking">Number of Guests</string>
+    <string name="label_number_of_people">Number of Residents</string>
+    <string name="label_number_of_floors">Number of Floors</string>
+    <string name="label_floor_area">Floor Area</string>
+    <string name="label_capacity">Maximum Capacity</string>
+    <string name="label_building_material">Building Material</string>
+    <string name="value_num_guests_booking">2</string>
+    <string name="value_num_residents"></string>
+    <string name="value_num_floors"></string>
+    <string name="value_floor_area"></string>
+    <string name="value_capacity"></string>
+    <string name="value_building_material"></string>
+    <string name="button_select_dwelling">SELECT</string>
+    <string name="button_next_dwelling_arrow">&gt;</string>
+    <string name="button_previous_dwelling_arrow">&lt;</string>
+    <string name="content_description_dwelling_image">Temporary image until I get some dwellings</string>
+</resources>

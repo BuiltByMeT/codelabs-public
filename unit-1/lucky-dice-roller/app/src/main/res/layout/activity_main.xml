@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/rollButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/roll_button2"
+        app:layout_constraintEnd_toEndOf="@+id/diceImage2"
+        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintStart_toStartOf="@+id/diceImage2"
+        app:layout_constraintTop_toBottomOf="@+id/diceImage2" />
+
+    <Button
+        android:id="@+id/rollButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/roll_button1"
+        app:layout_constraintEnd_toEndOf="@+id/diceImage"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="@+id/diceImage"
+        app:layout_constraintTop_toBottomOf="@+id/diceImage" />
+
+    <ImageView
+        android:id="@+id/diceImage2"
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/dice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toEndOf="@+id/diceImage"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@drawable/dice_1" />
+
+    <ImageView
+        android:id="@+id/diceImage"
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:layout_marginEnd="53dp"
+        android:contentDescription="@string/dice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/diceImage2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@drawable/dice_1" />
+
+    <TextView
+        android:id="@+id/youWinText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/you_win_content_description"
+        android:fontFamily="casual"
+        android:text="@string/you_win_text"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/diceImage"
+        app:layout_constraintEnd_toEndOf="@+id/diceImage2"
+        app:layout_constraintStart_toStartOf="@+id/diceImage"
+        app:layout_constraintTop_toBottomOf="@+id/luckyNumberInput"
+        tools:text="YOU WIN ON DICE 1 AND 2!!" />
+
+    <EditText
+        android:id="@+id/luckyNumberInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:hint="@string/lucky_number_input"
+        android:inputType="number"
+        android:maxLength="1"
+        android:numeric="integer"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/diceImage"
+        app:layout_constraintEnd_toEndOf="@+id/diceImage2"
+        app:layout_constraintStart_toStartOf="@+id/diceImage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
